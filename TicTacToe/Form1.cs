@@ -21,118 +21,144 @@ namespace TicTacToe
 
         private void Top1_Click(object sender, EventArgs e)
         {
-            Top1.Text = turn.ToString();
-            if (turn == 'X')
+            if (Top1.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Top1.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void Top2_Click(object sender, EventArgs e)
         {
-            Top2.Text = turn.ToString();
-            if (turn == 'X')
+            if (Top2.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Top2.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
-
         private void Top3_Click(object sender, EventArgs e)
         {
-            Top3.Text = turn.ToString();
-            if (turn == 'X')
+            if (Top3.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Top3.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void Mid1_Click(object sender, EventArgs e)
         {
-            Mid1.Text = turn.ToString();
-            if (turn == 'X')
+            if (Mid1.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Mid1.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void Mid2_Click(object sender, EventArgs e)
         {
-            Mid2.Text = turn.ToString();
-            if (turn == 'X')
+            if (Mid2.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Mid2.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void Mid3_Click(object sender, EventArgs e)
         {
-            Mid3.Text = turn.ToString();
-            if (turn == 'X')
+            if (Mid3.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Mid3.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void Bot1_Click(object sender, EventArgs e)
         {
-            Bot1.Text = turn.ToString();
-            if (turn == 'X')
+            if (Bot1.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Bot1.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void Bot2_Click(object sender, EventArgs e)
         {
-            Bot2.Text = turn.ToString();
-            if (turn == 'X')
+            if (Bot2.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Bot2.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void Bot3_Click(object sender, EventArgs e)
         {
-            Bot3.Text = turn.ToString();
-            if (turn == 'X')
+            if (Bot3.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                Bot3.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
     }
