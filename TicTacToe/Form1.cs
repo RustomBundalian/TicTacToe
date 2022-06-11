@@ -13,6 +13,7 @@ namespace TicTacToe
     public partial class TicTacToe : Form
     {
         char turn = 'X';
+        sbyte turns = 0;
 
         public TicTacToe()
         {
@@ -55,6 +56,9 @@ namespace TicTacToe
                     }
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
 
         private void Top2_Click(object sender, EventArgs e)
@@ -85,6 +89,9 @@ namespace TicTacToe
                     }
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
         private void Top3_Click(object sender, EventArgs e)
         {
@@ -121,6 +128,9 @@ namespace TicTacToe
                     }
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
 
         private void Mid1_Click(object sender, EventArgs e)
@@ -151,6 +161,9 @@ namespace TicTacToe
                     MessageBox.Show(Mid1.Text + " have won the game!");
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
 
         private void Mid2_Click(object sender, EventArgs e)
@@ -195,6 +208,9 @@ namespace TicTacToe
                     MessageBox.Show(Mid2.Text + " have won the game!");
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
 
         private void Mid3_Click(object sender, EventArgs e)
@@ -225,6 +241,9 @@ namespace TicTacToe
                     MessageBox.Show(Mid3.Text + " have won the game!");
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
 
         private void Bot1_Click(object sender, EventArgs e)
@@ -262,6 +281,9 @@ namespace TicTacToe
                     MessageBox.Show(Bot1.Text + " have won the game!");
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
 
         private void Bot2_Click(object sender, EventArgs e)
@@ -292,6 +314,9 @@ namespace TicTacToe
                     MessageBox.Show(Bot2.Text + " have won the game!");
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
 
         private void Bot3_Click(object sender, EventArgs e)
@@ -329,6 +354,9 @@ namespace TicTacToe
                     MessageBox.Show(Bot3.Text + " have won the game!");
                 }
             }
+            turns++;
+            if (turns == 9)
+                MessageBox.Show("Draw!");
         }
     }
 }
