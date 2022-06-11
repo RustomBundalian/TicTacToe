@@ -127,7 +127,7 @@
             this.Bot3.Size = new System.Drawing.Size(100, 100);
             this.Bot3.TabIndex = 8;
             this.Bot3.UseVisualStyleBackColor = true;
-            this.Bot3.Click += new System.EventHandler(this.Bot3_Click);
+            this.Bot3.Click += new System.EventHandler(this.Bot3_Click_1);
             // 
             // TicTacToe
             // 
